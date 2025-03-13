@@ -4,7 +4,7 @@ export default defineConfig({
     css: {
         transformer: 'lightningcss',
         lightningcss: {
-            // adding `visitor` cases panic in bun
+            // adding `visitor` causes panic in bun
             visitor: {
 
             },
